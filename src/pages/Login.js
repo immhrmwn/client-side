@@ -49,14 +49,14 @@ function Login() {
         <div>
           <form className="form" onSubmit={handleSubmit}>
             <div>
-              <input type="email" className="form-control" placeholder="Email"
+              <input type="email" className="form-control" placeholder="Email" required
                 name="email"
                 value={user.email}
                 onChange={handleChange}
               />
             </div>
             <div>
-              <input type="password" className="form-control" placeholder="Password"
+              <input type="password" className="form-control" placeholder="Password" required
                 name="password"
                 value={user.password}
                 onChange={handleChange}
